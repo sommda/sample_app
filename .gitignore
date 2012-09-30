@@ -13,3 +13,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore emacs tempfiles
+*~
+
+# Ignore other files
+doc/
+*.swp
+.project
+.DS_Store
+.idea
+
