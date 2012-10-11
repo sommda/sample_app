@@ -29,6 +29,7 @@ gem 'annotate', '2.5.0', group: :development
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '4.1.0'
 
   # Mac OSX-specific gems
   gem 'rb-fsevent', '0.9.1', :require => false
